@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Chevrolet Onix",
+        "year": "2010",
+        "price": "R$ 15.000,00",
+        "brand": "Chevrolet",
+        "image:": "https://via.placeholder.com/300x200",
+        "km": "652.000"
+    },
+    {
+        "name": "Toyota Corolla",
+        "year": "2015",
+        "price": "R$ 45.000,00",
+        "brand": "Toyota",
+        "image": "https://via.placeholder.com/300x200",
+        "km": "120.000"
+    },
+    {
+        "name": "Honda Civic",
+        "year": "2018",
+        "price": "55.000,00",
+        "brand": "Honda",
+        "image": "https://via.placeholder.com/300x200",
+        "km": "80.000"
+    },
+    {
+        "name": "Ford Fiesta",
+        "year": "2012",
+        "price": "R$ 18.000,00",
+        "brand": "Ford",
+        "image": "https://via.placeholder.com/300x200",
+        "km": "150.000"
+    },
+    {
+        "name": "Volkswagen Golf",
+        "year": "2017",
+        "price": "R$ 40.000,00",
+        "brand": "Volkswagen",
+        "image": "https://via.placeholder.com/300x200",
+        "km": "90.000"
+    }
+]

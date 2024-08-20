@@ -1,0 +1,72 @@
+
+
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color:rgb(105, 6, 6);
+    text-transform:uppercase;
+}
+.container-fluid {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+.container-fluid img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove o espaçamento em linha */
+    margin-left: auto; /* Centraliza a imagem horizontalmente */
+    margin-right: auto; /* Centraliza a imagem horizontalmente */
+    margin-bottom: 20px; /* Adiciona margem inferior para separar a imagem do texto */
+}
+.text-center {
+    text-align: center; /* Garante que o texto esteja centralizado */
+}
+
+.nav-link{
+    color:rgb(105, 6, 6);
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #842029;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+
+    margin: 0;
+}
+
+.card {
+
+    width: 626px; /* Ajuste a largura conforme necessário */
+    height: 272px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 0.125rem;
+}
+.dropdown-item-text {
+    font-weight: bold;
+}
+
+
