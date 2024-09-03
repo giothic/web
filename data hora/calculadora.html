@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="/styles/calc.css">
+    </head>
+    <body>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <h2 class="text-center">Calculadora Master ProMax</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="num1" class="form-label">Primeiro
+                                operador</label>
+                            <input type="number" class="form-control" id="num1"
+                                placeholder="Digite o Primeiro número">
+                        </div>
+                        <div class="text text-center">
+                            <button type="button" class="btn btn-primary"
+                                onclick="setOperacao('+')">+</button>
+                            <button type="button" class="btn btn-secondary"
+                                onclick="setOperacao('-')">-</button>
+                            <button type="button" class="btn btn-success"
+                                onclick="setOperacao('*')">*</button>
+                            <button type="button" class="btn btn-danger"
+                                onclick="setOperacao('/')">/</button>
+                        </div>
+                        <div class="mb-3">
+                            <label for="num2" class="form-label">Segundo
+                                operador</label>
+                            <input type="number" class="form-control" id="num2"
+                                placeholder="Digite o Segundo número">
+                        </div>
+                        <div class="mb-3 text-center">
+                            <button type="button" class="btn btn-warning"
+                                onclick="calcular()">RESULTADO</button>
+
+                        </div>
+                    </form>
+                    <div class="mt-4">
+                        <h4 id="demo">Resultado:</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="/script/calculadora.js"></script>
+    </body>
+</html>
